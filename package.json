@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.9.0"
   }
 }
